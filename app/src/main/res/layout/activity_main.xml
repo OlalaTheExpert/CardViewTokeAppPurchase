@@ -33,6 +33,9 @@
             android:textSize="25sp"
             />
 
+
+
+
         <RelativeLayout
             android:layout_width="fill_parent"
             android:layout_height="169dp"
@@ -67,12 +70,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click1"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_10"
-                android:layout_width="125dp"
-                android:layout_height="43dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="134dp"
+                android:layout_height="76dp"
                 android:layout_alignParentEnd="false"
                 android:layout_marginTop="100dp"
                 android:backgroundTint="#FFB04B"
@@ -119,25 +123,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click1"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
-        <Button
-            android:id="@+id/btn_20"
-            android:layout_width="125dp"
-            android:layout_height="43dp"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="100dp"
-            android:backgroundTint="#FFB04B"
-            android:text="Ksh 300"
-            android:textColor="#192232"
-            android:textSize="18dp"
-            android:textStyle="bold|italic"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.058"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.0" />
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:id="@+id/btn_20"
+                android:layout_width="125dp"
+                android:layout_height="43dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="100dp"
+                android:backgroundTint="#FFB04B"
+                android:text="Ksh 300"
+                android:textColor="#192232"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.058"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.0" />
         </RelativeLayout>
 
         <RelativeLayout
@@ -174,12 +179,13 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click3"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_30"
-                android:layout_width="125dp"
-                android:layout_height="43dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="134dp"
+                android:layout_height="76dp"
                 android:layout_alignParentEnd="false"
                 android:layout_marginTop="100dp"
                 android:backgroundTint="#FFB04B"
@@ -224,12 +230,13 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.068"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/click4"
+
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_40"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="125dp"
                 android:layout_height="43dp"
                 android:layout_alignParentEnd="true"
@@ -280,10 +287,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click5"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_50"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="125dp"
                 android:layout_height="43dp"
                 android:layout_alignParentEnd="false"
@@ -303,6 +311,7 @@
 
             <TextView
                 android:id="@+id/textView6"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
                 android:layout_alignParentEnd="true"
@@ -332,10 +341,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click6"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_60"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="125dp"
                 android:layout_height="43dp"
                 android:layout_alignParentEnd="true"
@@ -386,10 +396,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click7"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_70"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="125dp"
                 android:layout_height="43dp"
                 android:layout_alignParentEnd="false"
@@ -427,7 +438,7 @@
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="120dp"
-
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_height="71dp"
                 android:layout_alignParentEnd="true"
                 android:layout_marginTop="45dp"
@@ -438,10 +449,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click8"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_80"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="125dp"
                 android:layout_height="43dp"
                 android:layout_alignParentEnd="true"
@@ -492,10 +504,11 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click9"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download" />
+                app:srcCompat="@drawable/images" />
 
             <Button
                 android:id="@+id/btn_90"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="125dp"
                 android:layout_height="43dp"
                 android:layout_alignParentEnd="false"
@@ -544,11 +557,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/click10"
                 app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/download"
+                app:srcCompat="@drawable/images"
                 tools:ignore="UnknownId" />
 
             <Button
                 android:id="@+id/btn_100"
+                style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="125dp"
                 android:layout_height="43dp"
                 android:layout_alignParentEnd="true"

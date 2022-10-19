@@ -197,23 +197,23 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("TestA2d","Item consumed");
                 Toast.makeText(MainActivity.this, "Item Consumed", Toast.LENGTH_SHORT).show();
 
-                if (purchase.getSkus().get(0).equals("clicks_5")) {
+                if (purchase.getSkus().get(0).equals("click_5")) {
                     updateClicks(5);
-                } else if (purchase.getSkus().get(0).equals("clicks_10")) {
+                } else if (purchase.getSkus().get(0).equals("click_10")) {
                     updateClicks(15);
-                } else if (purchase.getSkus().get(0).equals("clicks_50")) {
+                } else if (purchase.getSkus().get(0).equals("click_50")) {
                     updateClicks(50);
-                }else if (purchase.getSkus().get(0).equals("clicks_60")){
+                }else if (purchase.getSkus().get(0).equals("click_60")){
                     updateClicks(60);
-                }else if (purchase.getSkus().get(0).equals("clicks_70")){
+                }else if (purchase.getSkus().get(0).equals("click_70")){
                     updateClicks(70);
-                }else if (purchase.getSkus().get(0).equals("clicks_80")){
+                }else if (purchase.getSkus().get(0).equals("click_80")){
                     updateClicks(80);
-                }else if (purchase.getSkus().get(0).equals("clicks_85")){
+                }else if (purchase.getSkus().get(0).equals("click_85")){
                     updateClicks(85);
-                }else if (purchase.getSkus().get(0).equals("clicks_90")){
+                }else if (purchase.getSkus().get(0).equals("click_90")){
                     updateClicks(90);
-                }else if (purchase.getSkus().get(0).equals("clicks_99")){
+                }else if (purchase.getSkus().get(0).equals("click_99")){
                     updateClicks(99);
                 }
 
